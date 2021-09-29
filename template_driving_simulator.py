@@ -8,7 +8,7 @@ width=780
 height=360
 screen = pygame.display.set_mode((width,height))
   
-#load the images in dict
+# Creating a dictionary 'images' and loading the images into the dictionary
 images={}
 images["bg"] = pygame.image.load("bg.png").convert_alpha()
 images["car"] = pygame.image.load("car1.png").convert_alpha()
